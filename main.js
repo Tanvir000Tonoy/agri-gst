@@ -1,7 +1,7 @@
 // coded by tanvir tonoy date [ 14 march 2024] this is a comment 
 
 setInterval(()=>{
-    let FinalDate = new Date("April 27,2024 11:00").getTime()/(1000*60*60);
+    let FinalDate = new Date("July 20,2024 11:00").getTime()/(1000*60*60);
     let PresentDate = new Date().getTime()/(1000*60*60);
 
     let Display = (FinalDate - PresentDate ); // in hours
@@ -12,3 +12,8 @@ setInterval(()=>{
     persubject = (Display/4).toFixed(3);
     ps.innerHTML = persubject
 })
+let names = ['বাঁদর','মারুফ','মিশু','আরজু']
+setInterval(()=>{
+    let x = Math.floor(Math.random()*4);
+    document.querySelector("#something").innerHTML = names[x]
+},1000)
