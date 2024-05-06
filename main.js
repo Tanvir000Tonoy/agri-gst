@@ -9,7 +9,7 @@ setInterval(()=>{
     document.querySelector(".hour").innerHTML = Display.toFixed(3)
     document.querySelector(".day").innerHTML = day.toFixed(1);
     let ps = document.querySelector(".ps");
-    persubject = (Display/4).toFixed(3);
+    persubject = (Display/5).toFixed(3);
     ps.innerHTML = persubject
 })
 let names = ['বাঁদর','মারুফ','মিশু','আরজু']
