@@ -12,8 +12,8 @@ setInterval(()=>{
     persubject = (Display/5).toFixed(3);
     ps.innerHTML = persubject
 })
-let names = ['বাঁদর','মারুফ','মিশু','আরজু']
+let names = ['বাঁদর','মারুফ','মিশু','আরজু','সিরু]
 setInterval(()=>{
-    let x = Math.floor(Math.random()*4);
+    let x = Math.floor(Math.random()*5);
     document.querySelector("#something").innerHTML = names[x]
 },1000)
