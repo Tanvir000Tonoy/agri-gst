@@ -9,9 +9,9 @@
     --numbers: rgb(255, 255, 255);
     --body: white;
     /* --box: rgba(66, 128, 0, 0.379); */
-    --box: rgb(167, 113, 255);
-    --owner: rgb(220, 198, 255);
-    --title: rgb(245, 240, 253);
+    --box: rgb(113, 163, 255);
+    --owner: rgb(198, 223, 255);
+    --title: rgb(230, 238, 255);
 }
 
 .varela-round-regular {
