@@ -1571,6 +1571,6 @@ setInterval(()=>{
     let y = Math.floor(Math.random()*ukti.length);
     document.querySelector("#quorts").innerHTML = ukti[y].quote;
     
-},3000);
+},8000);
 
 
